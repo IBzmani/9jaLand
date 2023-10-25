@@ -39,7 +39,7 @@ export default function Lands() {
                   <Heading as="h3" size="sm">
                     {task.address}
                   </Heading>
-                  <Text>by {task.owner.name}</Text>
+                  <Text>price {task.price}</Text>
                 </Box>
               </Flex>
             </CardHeader>
