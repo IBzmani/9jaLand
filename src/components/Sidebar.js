@@ -6,13 +6,13 @@ export default function Sidebar() {
   return (
     <List color="white" fontSize="1.2em" spacing={4}>
       <ListItem>
-        <NavLink to="create">
+        <NavLink to="/">
           <ListIcon as={EditIcon} color="white" />
           Lands
         </NavLink>
       </ListItem>
       <ListItem>
-        <NavLink to="/">
+        <NavLink to="dashboard">
           <ListIcon as={CalendarIcon} color="white" />
           Dashboard
         </NavLink>
@@ -21,6 +21,12 @@ export default function Sidebar() {
         <NavLink to="profile">
           <ListIcon as={AtSignIcon} color="white" />
           Profile
+        </NavLink>
+      </ListItem>
+      <ListItem>
+        <NavLink to="upload">
+          <ListIcon as={EditIcon} color="white" />
+          Upload
         </NavLink>
       </ListItem>
     </List>
