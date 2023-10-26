@@ -20,32 +20,8 @@ export default function Navbar() {
         9jaLand
       </Heading>
       <Spacer />
-
       <HStack spacing="20px">
-        <Avatar name="mario" src="/img/mario.png">
-          <AvatarBadge width="1.3em" bg="teal.500">
-            <Text fontSize="xs" color="white">
-              3
-            </Text>
-          </AvatarBadge>
-        </Avatar>
-        <Text>mario@netninja.dev</Text>
-        <Button
-          colorScheme="purple"
-          onClick={() =>
-            toast({
-              title: "Logged out.",
-              description: "Successfully logged out",
-              duration: 10000,
-              isClosable: true,
-              position: "top",
-              status: "success",
-              icon: <UnlockIcon />,
-            })
-          }
-        >
-          Logout
-        </Button>
+        <w3m-button/>
       </HStack>
     </Flex>
   );

@@ -10,8 +10,28 @@ import "./App.css";
 import RootLayout from "./layouts/RootLayout";
 import Dashboard, { tasksLoader } from "./pages/Dashboard";
 import Profile from "./pages/Profile";
-import LandingPage from "./pages/LandingPage";
+// import LandingPage from "./pages/LandingPage";
 import Lands from "./pages/Lands";
+
+
+
+import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react'
+import { WagmiConfig } from 'wagmi'
+import { bscTestnet } from 'wagmi/chains'
+// 1. Get projectId
+const projectId = '92833d2a8bd09509cd54c514bdf9be72'
+// 2. Create wagmiConfig
+const metadata = {
+  name: '9jaland',
+  description: '9jaland Example',
+  url: 'https://9jaland.com',
+  icons: ['https://avatars.githubusercontent.com/u/37784886']
+}
+
+const chains = [bscTestnet]
+const wagmiConfig = defaultWagmiConfig({ chains, projectId, metadata })
+// 3. Create modal
+createWeb3Modal({ wagmiConfig, projectId, chains }) 
 
 // router and routes
 const router = createBrowserRouter(
@@ -25,7 +45,11 @@ const router = createBrowserRouter(
 );
 
 function App() {
-  return <RouterProvider router={router} />;
+    return (
+      <WagmiConfig config={wagmiConfig}>
+        <RouterProvider router={router} />
+      </WagmiConfig>
+    )
 }
 
 export default App;
