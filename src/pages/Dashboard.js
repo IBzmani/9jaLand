@@ -1,5 +1,5 @@
 import { EditIcon, ViewIcon } from "@chakra-ui/icons";
-import { useContractWrite } from 'wagmi'
+import { useContractWrite } from "wagmi";
 import {
   Box,
   SimpleGrid,
@@ -14,28 +14,28 @@ import {
   Divider,
   Button,
   Avatar,
-} from "@chakra-ui/react"
+} from "@chakra-ui/react";
 
 import { useLoaderData } from "react-router-dom";
-import db from "../tasks.js"
-import abi from "../abi.json"; 
+import db from "../tasks.js";
+import abi from "../abi.json";
 import React, { useState, useEffect } from "react";
 
 export default function Dashboard() {
   const tasks = useLoaderData();
 
   const { data, isLoading, isSuccess, write } = useContractWrite({
-    address: '0xc6e3f502d48EB58dFC381649e530776eC1e9C5c1',
+    address: "0xc6e3f502d48EB58dFC381649e530776eC1e9C5c1",
     abi: abi,
-    functionName: 'buyProperty',
-  })
-  const [sending, setSending] = useState(0); 
+    functionName: "buyProperty",
+  });
+  const [sending, setSending] = useState(0);
 
-  useEffect(()=>{
-    if(isSuccess){
-        alert('good')
+  useEffect(() => {
+    if (isSuccess) {
+      alert("good");
     }
-  }, [isSuccess])
+  }, [isSuccess]);
 
   return (
     <SimpleGrid spacing={10} minChildWidth={300}>
@@ -72,8 +72,17 @@ export default function Dashboard() {
                 <Button variant="ghost" leftIcon={<ViewIcon />}>
                   View
                 </Button>
-                <Button onClick={()=>{write({args: [task.propertyId]}); setSending(task.propertyId)}} variant="ghost" leftIcon={<EditIcon />}>
-                  {isLoading && sending == task.propertyId ? 'Sending..' : 'Purchase'}
+                <Button
+                  onClick={() => {
+                    write({ args: [task.propertyId] });
+                    setSending(task.propertyId);
+                  }}
+                  variant="ghost"
+                  leftIcon={<EditIcon />}
+                >
+                  {isLoading && sending == task.propertyId
+                    ? "Sending.."
+                    : "Purchase"}
                 </Button>
               </HStack>
             </CardFooter>
@@ -83,9 +92,9 @@ export default function Dashboard() {
   );
 }
 
-export const tasksLoader = async () => {
+export const landsLoader = async () => {
   // const res = await fetch("http://localhost:3000/tasks");
 
   // return res.json();
-  return db.tasks; 
+  return db.tasks;
 };

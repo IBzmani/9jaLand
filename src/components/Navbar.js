@@ -21,7 +21,7 @@ export default function Navbar() {
       </Heading>
       <Spacer />
       <HStack spacing="20px">
-        <w3m-button/>
+        <w3m-button />
       </HStack>
     </Flex>
   );
