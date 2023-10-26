@@ -11,12 +11,12 @@ export default function Sidebar() {
           Lands
         </NavLink>
       </ListItem>
-      <ListItem>
+      {/* <ListItem>
         <NavLink to="dashboard">
           <ListIcon as={CalendarIcon} color="white" />
           Dashboard
         </NavLink>
-      </ListItem>
+      </ListItem> */}
       <ListItem>
         <NavLink to="profile">
           <ListIcon as={AtSignIcon} color="white" />
