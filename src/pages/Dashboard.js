@@ -65,7 +65,7 @@ export default function Dashboard() {
   );
 }
 
-export const tasksLoader = async () => {
+export const landsLoader = async () => {
   const res = await fetch("http://localhost:3000/tasks");
 
   return res.json();
