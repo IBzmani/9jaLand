@@ -18,13 +18,6 @@
       "zoning": "Commercial",
       "landUseRestrictions": "No industrial activities allowed",
       "topography": "Flat terrain suitable for construction",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Available",
-        "sewage": "Public Sewer System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "No environmental concerns reported",
       "nearbyAmenities": ["High School", "Medical Center", "Public Park"],
       "price": "$250,000",
@@ -45,13 +38,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "None",
       "topography": "Gentle slope with scenic views",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "No flood zone, fertile soil suitable for agriculture",
       "nearbyAmenities": ["Elementary School", "Hospital", "Shopping Mall"],
       "price": "$150,000",
@@ -72,13 +58,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "No subdividing allowed",
       "topography": "Moderate slope with a panoramic view of the lake",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "Adjacent to protected natural reserve, no construction limitations",
       "nearbyAmenities": ["Elementary School", "Grocery Store", "Lake Park"],
       "price": "$180,000",
@@ -99,13 +78,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "No subdividing allowed",
       "topography": "Moderate slope with a panoramic view of the lake",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "Adjacent to protected natural reserve, no construction limitations",
       "nearbyAmenities": ["Elementary School", "Grocery Store", "Lake Park"],
       "price": "$180,000",
@@ -126,13 +98,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "No subdividing allowed",
       "topography": "Moderate slope with a panoramic view of the lake",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "Adjacent to protected natural reserve, no construction limitations",
       "nearbyAmenities": ["Elementary School", "Grocery Store", "Lake Park"],
       "price": "$180,000",
@@ -153,13 +118,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "No subdividing allowed",
       "topography": "Moderate slope with a panoramic view of the lake",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "Adjacent to protected natural reserve, no construction limitations",
       "nearbyAmenities": ["Elementary School", "Grocery Store", "Lake Park"],
       "price": "$180,000",
@@ -180,13 +138,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "No subdividing allowed",
       "topography": "Moderate slope with a panoramic view of the lake",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "Adjacent to protected natural reserve, no construction limitations",
       "nearbyAmenities": ["Elementary School", "Grocery Store", "Lake Park"],
       "price": "$180,000",
@@ -207,13 +158,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "No subdividing allowed",
       "topography": "Moderate slope with a panoramic view of the lake",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "Adjacent to protected natural reserve, no construction limitations",
       "nearbyAmenities": ["Elementary School", "Grocery Store", "Lake Park"],
       "price": "$180,000",
@@ -234,13 +178,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "No subdividing allowed",
       "topography": "Moderate slope with a panoramic view of the lake",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "Adjacent to protected natural reserve, no construction limitations",
       "nearbyAmenities": ["Elementary School", "Grocery Store", "Lake Park"],
       "price": "$180,000",
@@ -261,13 +198,6 @@
       "zoning": "Residential",
       "landUseRestrictions": "No subdividing allowed",
       "topography": "Moderate slope with a panoramic view of the lake",
-      "utilities": {
-        "water": "Available",
-        "electricity": "Available",
-        "gas": "Not Available",
-        "sewage": "Septic System",
-        "internet": "Available"
-      },
       "environmentalConsiderations": "Adjacent to protected natural reserve, no construction limitations",
       "nearbyAmenities": ["Elementary School", "Grocery Store", "Lake Park"],
       "price": "$180,000",
