@@ -29,7 +29,7 @@ export default function Navbar() {
             </Text>
           </AvatarBadge>
         </Avatar>
-        <Text>mario@netninja.dev</Text>
+        <Text>0x3d80d33264FC5E084F...</Text>
         <Button
           colorScheme="purple"
           onClick={() =>
