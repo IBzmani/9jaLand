@@ -13,7 +13,7 @@ import Profile from "./pages/Profile";
 // import LandingPage from "./pages/LandingPage";
 import Lands from "./pages/Lands";
 
-
+import Upload from "./pages/Upload";
 
 import { createWeb3Modal, defaultWagmiConfig } from '@web3modal/wagmi/react'
 import { WagmiConfig } from 'wagmi'
@@ -38,6 +38,7 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Lands />} loader={tasksLoader} />
+      <Route path="uploads" element={<Upload />} />
       <Route path="dashboard" element={<Dashboard />} loader={tasksLoader} />
       <Route path="profile" element={<Profile />} />
     </Route>
